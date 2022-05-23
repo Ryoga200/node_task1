@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <%- include('_head') %>
+        
+    </head>
+<body>
+   <div id="search">
+ <form method="POST" action="/update">
+    <input type="text" name="todo" value=<%= data.task%>><br><br>
+    <br>
+    <input name="id" type="hidden" value=<%=data.id%>>
+    <input type="submit"  value="変更する" class="btn btn-success">
+    </form>
+    
+   </div>
+   <a href="/" >一覧ページに戻る   </a>
+</body>
+</html>

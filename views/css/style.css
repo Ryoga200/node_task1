@@ -1,0 +1,21 @@
+body{
+	margin: 0 auto; padding-left: 40px;padding-top: 20px;
+	background-color: pink;
+}
+#post {
+	padding-left: 10px;
+	border: solid 2px #000;
+	margin-top:3px;
+}
+#search{
+	padding-left: 10px;
+	border: solid 2px #000;
+	margin-top:3px;
+}
+#todobox *{
+	padding:4px;
+}
+#todobox *{
+	font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */
